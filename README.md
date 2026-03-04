@@ -1,5 +1,7 @@
 <img width="945" height="204" alt="image" src="https://github.com/user-attachments/assets/faa47380-9662-486e-bf8b-ea77699e649d" />
 
+`git clone --recurse-submodules https://github.com/CorbinIvon/tui_button_commands.git`
+
 # Button to Command Executor
 
 A powerful TUI (Terminal User Interface) Controller built with Rust and Ratatui. This application allows you to manage multiple background processes as "buttons," providing real-time interaction, lifecycle controls, and persistent logging.
@@ -30,6 +32,9 @@ A powerful TUI (Terminal User Interface) Controller built with Rust and Ratatui.
 ### Running the Application
 
 ```bash
+# Initialize submodules if cloning for the first time
+git submodule update --init --recursive
+
 cd button_to_command
 cargo run
 ```
@@ -53,7 +58,7 @@ cargo run
 ## Project Structure
 
 - `button_to_command/`: The main application logic.
-- `framework/`: A local component-based TUI framework.
+- `button_to_command/tui_framework/`: The UI framework submodule.
 - `commands.json`: Persistent storage for your command buttons.
 - `output/`: Directory containing `.log` files for every command execution.
 

@@ -8,5 +8,5 @@ ratatui = "0.29.0"
 crossterm = { version = "0.28.1", features = ["events"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-ui_framework = { path = "../framework" }
+ui_framework = { path = "./tui_framework" }
 tokio = { version = "1.0", features = ["full"] }

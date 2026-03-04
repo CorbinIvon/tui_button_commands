@@ -1,0 +1,3 @@
+[submodule "tui_framework"]
+	path = tui_framework
+	url = https://github.com/CorbinIvon/tui_framework.git
