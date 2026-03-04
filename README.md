@@ -1,3 +1,5 @@
+<img width="945" height="204" alt="image" src="https://github.com/user-attachments/assets/faa47380-9662-486e-bf8b-ea77699e649d" />
+
 # Button to Command Executor
 
 A powerful TUI (Terminal User Interface) Controller built with Rust and Ratatui. This application allows you to manage multiple background processes as "buttons," providing real-time interaction, lifecycle controls, and persistent logging.
