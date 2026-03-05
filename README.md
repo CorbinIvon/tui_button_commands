@@ -1,6 +1,6 @@
 <img width="945" height="204" alt="image" src="https://github.com/user-attachments/assets/faa47380-9662-486e-bf8b-ea77699e649d" />
 
-`git clone --recurse-submodules https://github.com/CorbinIvon/tui_button_commands.git`
+`git clone --recurse-submodules https://github.com/CorbinIvon/tui_button_commands.git && cd tui_button_commands.git && cargo run`
 
 # Button to Command Executor
 
